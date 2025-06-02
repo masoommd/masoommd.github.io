@@ -1,91 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bookshelf – Desktop Edition</title>
-  <link rel="stylesheet" href="style.css">
-  <!-- When you’re ready for mobile, link responsive.css AFTER style.css -->
-  <!-- <link rel="stylesheet" href="responsive.css"> -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Md Masoom | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- ====== Header ====== -->
   <header>
-  <div class="logo">📚 Bookshelf</div>
+    <h1>Md Masoom</h1>
+    <p>Full Stack Developer | MERN Stack | Problem Solver</p>
+  </header>
 
-  <!-- 💡 1. the hidden checkbox that switches the menu on/off -->
-  <input type="checkbox" id="nav-toggle" class="nav-toggle">
-
-  <!-- 💡 2. the hamburger icon -->
-  <label for="nav-toggle" class="nav-toggle-label">
-    <span></span><span></span><span></span>
-  </label>
-
-  <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Genres</a></li>
-      <li><a href="#">Latest PDFs</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
-</header>
-
-
-  <!-- ====== Hero Section with 4 Cards ====== -->
-  <section class="hero">
-    <h1>Discover Your Next Read</h1>
-    <div class="cards-row">
-      <!-- Card 1 -->
-      <article class="card">
-        <h2>The Silent Patient</h2>
-        <p class="author">by Alex Michaelides</p>
-        <p class="desc">
-          A shocking psychological thriller of a woman’s act of violence
-          against her husband—and the therapist obsessed with uncovering her motive.
-        </p>
-        <a href="#" class="btn">Read PDF</a>
-      </article>
-
-      <!-- Card 2 -->
-      <article class="card">
-        <h2>Atomic Habits</h2>
-        <p class="author">by James Clear</p>
-        <p class="desc">
-          Tiny changes, remarkable results. Learn how small habits can lead to
-          life-changing outcomes in work and life.
-        </p>
-        <a href="#" class="btn">Read PDF</a>
-      </article>
-
-      <!-- Card 3 -->
-      <article class="card">
-        <h2>Educated</h2>
-        <p class="author">by Tara Westover</p>
-        <p class="desc">
-          A memoir about a girl who, kept out of school, leaves her survivalist
-          family and earns a PhD from Cambridge University.
-        </p>
-        <a href="#" class="btn">Read PDF</a>
-      </article>
-
-      <!-- Card 4 -->
-      <article class="card">
-        <h2>Dune</h2>
-        <p class="author">by Frank Herbert</p>
-        <p class="desc">
-          The epic science-fiction classic of Paul Atreides and the desert planet Arrakis.
-        </p>
-        <a href="#" class="btn">Read PDF</a>
-      </article>
-    </div>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate full stack developer with a B.Tech in Electronics and Communication Engineering.
+      I specialize in building scalable web apps using the MERN stack. I’ve built projects like Wanderlust and Job Spark,
+      and solved 350+ coding problems on platforms like LeetCode.
+    </p>
   </section>
 
-  <!-- (More sections could go here) -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Wanderlust:</strong> Airbnb clone built with MERN.</li>
+      <li><strong>Job Spark:</strong> Job board app with user login and admin dashboard.</li>
+      <li><strong>Mystery Message:</strong> Real-time chat app using Socket.IO.</li>
+    </ul>
+  </section>
 
-  <!-- ====== Footer ====== -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <p>JavaScript, React, Node.js, Express, MongoDB, C++, HTML, CSS, Git, GitHub</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your.email@example.com</p>
+    <p>GitHub: <a href="https://github.com/masoommd" target="_blank">github.com/masoommd</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/mdmasoom459/" target="_blank">linkedin.com/in/mdmasoom459/</a></p>
+  </section>
+
   <footer>
-    © 2025 Bookshelf. All PDFs are for demonstration purposes only.
+    <p>&copy; 2025 Md Masoom. All rights reserved.</p>
   </footer>
 </body>
 </html>

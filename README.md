@@ -1,60 +1,41 @@
-````markdown
-# 📚 Bookshelf – Responsive Landing Page
+# Md Masoom | Portfolio Website
 
-A lightweight, **HTML + CSS only** landing page for an online book-library / PDF-download site.  
-Desktop view shows four book cards side-by-side; on screens ≤ 768 px the layout re-flows to one card per row and the nav collapses into a hamburger.
+Welcome to my personal portfolio website!
 
----
+🚀 **Live Demo**: [https://masoommd.github.io](https://masoommd.github.io)
 
+## 👋 About Me
 
-## 🗂 Project Structure
-```text
-bookshelf/
-├─ index.html          # markup with hero + 4 cards
-├─ style.css           # desktop styles + mobile media query
-└─ README.md           # you are here
-````
+Hi, I’m **Md Masoom** — a passionate **Full Stack Developer** with a B.Tech in Electronics and Communication Engineering. I specialize in building full-stack web applications using the **MERN stack** and enjoy solving real-world problems through code.
 
----
-
-## 🚀 Getting Started
-
-1. **Clone or download** this repo
-
-   ```bash
-   git clone https://github.com/masoommd/task4.git
-   cd task4
-   ```
-2. **Open `index.html`** in any modern browser.
-3. **Test mobile mode**
-
-   * Chrome DevTools → Toggle Device Toolbar (⇧⌘M / Ctrl + Shift + M).
-   * Pick an iPhone / Pixel width (≤ 768 px) and reload.
-
-> **No build step needed** – it’s plain HTML & CSS.
+- 🔧 Technologies: JavaScript, React, Node.js, Express, MongoDB, HTML, CSS, C++
+- 🌐 Projects include: Airbnb clone (Wanderlust), Job board app (Job Spark), Real-time chat app (Mystery Message)
+- 🧠 350+ coding challenges solved on platforms like LeetCode and Coding Ninjas
+- 💬 Always eager to learn, collaborate, and improve!
 
 
----
+## 🛠 How I Built This Site
 
-## 📸 Screenshots
+This site is built using:
+- **HTML5 & CSS3** for layout and styling
+- **Git & GitHub Pages** for version control and deployment
 
-> Replace the placeholders with real screenshots once you test the page.
+## 🚀 Deployment
 
-| Desktop (1280 px)        | Mobile (375 px)         |
-| :----------------------- | :---------------------- |
-|   screenshot-desktop.png |   screenshot-mobile.png |
+This site is deployed using [GitHub Pages](https://pages.github.com/).
+
+To deploy your own version:
+1. Fork or clone this repository
+2. Customize the `index.html` and `style.css` files
+3. Push changes to `main` branch
+4. Enable GitHub Pages in your repository settings (Source: `main`, Folder: `/root`)
+
+## 📬 Contact Me
+
+- 📧 Email: your.email@example.com
+- 🧑‍💻 GitHub: [github.com/yourusername](https://github.com/masoommd)
+- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/masoom459)
 
 ---
 
-## © License
-
-MIT – do anything you like, just keep the copyright notice.
-
----
-
-### ✍️ Author
-
-Made with ❤️ by Md Masoom – feel free to reach out or open an issue if you’d like improvements or have questions!
-
-```
-```
+Made with ❤️ by Md Masoom
